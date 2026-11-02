@@ -1,7 +1,7 @@
 # LinkedIn UI Test Automation
 
 **Module:** IT3153 - Software Quality Assurance  
-**Assignment:** 04 - Take Home Assignment  
+**Assignment:** 05 - Take Home Assignment  
 **Degree:** Bachelor of Science Honours in IT / IS  
 **Institution:** General Sir John Kotelawala Defence University  
 
