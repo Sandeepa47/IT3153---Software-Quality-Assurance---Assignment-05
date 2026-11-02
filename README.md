@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This repository contains a test automation framework developed in **Java 17** using **Selenium WebDriver (4.25.0)** and **TestNG (7.10.2)** to automate core user flows on **LinkedIn**:
 1. **Login Automation:** Positive authentication (valid credentials) and Negative testing (invalid credentials with error assertions).
 2. **Search Automation:** Global search execution and result page validation.
@@ -16,7 +16,7 @@ The architecture strictly follows the **Page Object Model (POM)** pattern and us
 
 ---
 
-## 📁 Project Architecture (Page Object Model)
+## Project Architecture (Page Object Model)
 
 ```
 linkedin-ui-tests/
@@ -57,7 +57,7 @@ linkedin-ui-tests/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. How to Open the Project
 
@@ -125,7 +125,7 @@ mvn test -Dtest=LoginTest
 
 ---
 
-## 📊 Viewing Test Reports and Screenshots
+## Viewing Test Reports and Screenshots
 
 * **Automated Screenshots:** Every test run automatically captures and timestamps screenshots upon completion (with `PASS_` or `FAIL_` prefixes) in:
   ```
@@ -139,7 +139,7 @@ mvn test -Dtest=LoginTest
 
 ---
 
-## 🛡️ Bot Detection, CAPTCHA & Security Ethics
+## Bot Detection, CAPTCHA & Security Ethics
 LinkedIn implements active anti-scraping and bot-detection heuristics (such as Arkose Labs puzzles or SMS/email verification).
 In strict compliance with the assignment instructions:
 * **The test suite never attempts to bypass or hack security checkpoints.**
@@ -148,7 +148,7 @@ In strict compliance with the assignment instructions:
 
 ---
 
-## 📄 Test Report PDF Generation
+## Test Report PDF Generation
 1. Open `Test_Report_IT3153.html` in Google Chrome or Microsoft Edge.
 2. Fill in your **Name**, **Index Number**, and **GitHub Repo Link**.
 3. Click the **"🖨️ Print to PDF / Save as PDF"** button at the top (or press `Ctrl + P`).
@@ -156,7 +156,7 @@ In strict compliance with the assignment instructions:
 
 ---
 
-## 🎥 Screen Recording Instructions (Deliverable 4)
+## Screen Recording Instructions (Deliverable 4)
 * Maximum duration: **3 minutes**.
 * Use Windows Game Bar (`Win + G` or `Win + Alt + R`) or OBS Studio to record your screen while running `run_tests.bat`.
 * Ensure no personal confidential passwords or sensitive details are visible.
