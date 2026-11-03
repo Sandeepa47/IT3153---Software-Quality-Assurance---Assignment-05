@@ -1,0 +1,11 @@
+# Copy this file to config.properties (it is git-ignored) and fill in YOUR OWN test account.
+# Alternatively use environment variables LINKEDIN_USERNAME / LINKEDIN_PASSWORD.
+linkedin.username=your_test_account_email@example.com
+linkedin.password=your_test_account_password
+base.url=https://www.linkedin.com
+browser=chrome
+timeout.seconds=15
+# How long to wait (seconds) for YOU to complete a CAPTCHA / verification manually
+manual.checkpoint.seconds=180
+search.term=software testing
+search.click.term=Sundar Pichai

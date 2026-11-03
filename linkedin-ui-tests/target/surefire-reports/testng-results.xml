@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-03T14:15:50 IST" name="LinkedIn UI Suite" finished-at="2026-11-03T14:17:55 IST" duration-ms="125066">
+    <groups>
+    </groups>
+    <test started-at="2026-11-03T14:15:50 IST" name="LinkedIn Core Flows" finished-at="2026-11-03T14:17:55 IST" duration-ms="125066">
+      <class name="com.sqa.linkedin.tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:15:50 IST" name="setUp" finished-at="2026-11-03T14:15:56 IST" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validLoginShouldOpenFeed()[pri:1, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:15:56 IST" name="validLoginShouldOpenFeed" description="TC-01 Valid login lands on the feed" finished-at="2026-11-03T14:16:15 IST" duration-ms="18885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginShouldOpenFeed -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:16:15 IST" name="tearDown" finished-at="2026-11-03T14:16:15 IST" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginShouldOpenFeed status=SUCCESS method=LoginTest.validLoginShouldOpenFeed()[pri:1, instance:com.sqa.linkedin.tests.LoginTest@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:16:15 IST" name="setUp" finished-at="2026-11-03T14:16:16 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidPasswordShouldShowError()[pri:2, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:16:16 IST" name="invalidPasswordShouldShowError" description="TC-02 Invalid password shows an error" finished-at="2026-11-03T14:16:36 IST" duration-ms="19643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordShouldShowError -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqa.linkedin.tests.LoginTest@3daa422a]" started-at="2026-11-03T14:16:36 IST" name="tearDown" finished-at="2026-11-03T14:16:36 IST" duration-ms="532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPasswordShouldShowError status=SUCCESS method=LoginTest.invalidPasswordShouldShowError()[pri:2, instance:com.sqa.linkedin.tests.LoginTest@3daa422a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqa.linkedin.tests.LoginTest -->
+      <class name="com.sqa.linkedin.tests.SearchResultTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.linkedin.tests.SearchResultTest@59fd97a8]" started-at="2026-11-03T14:17:09 IST" name="setUp" finished-at="2026-11-03T14:17:10 IST" duration-ms="1125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="firstResultShouldOpenCorrectPage()[pri:0, instance:com.sqa.linkedin.tests.SearchResultTest@59fd97a8]" started-at="2026-11-03T14:17:10 IST" name="firstResultShouldOpenCorrectPage" description="TC-04 Clicking the first result opens the matching page" finished-at="2026-11-03T14:17:54 IST" duration-ms="43644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstResultShouldOpenCorrectPage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqa.linkedin.tests.SearchResultTest@59fd97a8]" started-at="2026-11-03T14:17:54 IST" name="tearDown" finished-at="2026-11-03T14:17:55 IST" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstResultShouldOpenCorrectPage status=SUCCESS method=SearchResultTest.firstResultShouldOpenCorrectPage()[pri:0, instance:com.sqa.linkedin.tests.SearchResultTest@59fd97a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqa.linkedin.tests.SearchResultTest -->
+      <class name="com.sqa.linkedin.tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sqa.linkedin.tests.SearchTest@795cd85e]" started-at="2026-11-03T14:16:36 IST" name="setUp" finished-at="2026-11-03T14:16:37 IST" duration-ms="1054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchShouldShowResults()[pri:0, instance:com.sqa.linkedin.tests.SearchTest@795cd85e]" started-at="2026-11-03T14:16:37 IST" name="searchShouldShowResults" description="TC-03 Global search shows a results page" finished-at="2026-11-03T14:17:09 IST" duration-ms="31272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchShouldShowResults -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.sqa.linkedin.tests.SearchTest@795cd85e]" started-at="2026-11-03T14:17:09 IST" name="tearDown" finished-at="2026-11-03T14:17:09 IST" duration-ms="504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchShouldShowResults status=SUCCESS method=SearchTest.searchShouldShowResults()[pri:0, instance:com.sqa.linkedin.tests.SearchTest@795cd85e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sqa.linkedin.tests.SearchTest -->
+    </test> <!-- LinkedIn Core Flows -->
+  </suite> <!-- LinkedIn UI Suite -->
+</testng-results>

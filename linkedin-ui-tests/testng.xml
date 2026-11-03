@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="LinkedIn UI Suite" verbose="1">
+    <!-- Run sequentially: LinkedIn rate-limits/flags rapid parallel logins -->
+    <test name="LinkedIn Core Flows">
+        <classes>
+            <class name="com.sqa.linkedin.tests.LoginTest"/>
+            <class name="com.sqa.linkedin.tests.SearchTest"/>
+            <class name="com.sqa.linkedin.tests.SearchResultTest"/>
+        </classes>
+    </test>
+</suite>
