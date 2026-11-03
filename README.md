@@ -55,8 +55,8 @@ Before running positive login tests, configure your own LinkedIn test account:
 1. Open this project folder in **VS Code** (`File -> Open Folder...`).
 2. Make sure the **Extension Pack for Java** is installed.
 3. Open any test file in `src/test/java/com/sqa/linkedin/tests/` (e.g. `LoginTest.java`).
-4. Click the **Green Play Button ** next to any test method to run it.
-5. Or open the **Testing ** tab on the left sidebar to run all tests with one click.
+4. Click the **Green Play Button (▶️)** next to any test method to run it.
+5. Or open the **Testing (🧪)** tab on the left sidebar to run all tests with one click.
 
 ### Option B: Using the Terminal (Maven)
 Open the terminal in VS Code (or PowerShell) in the project root:
